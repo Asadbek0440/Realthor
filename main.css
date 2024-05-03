@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    color: white;
+    float: left;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 15px;
+}
+.menubar {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+.menu li {
+    float: left;
+}
+.menu li{
+    list-style: none;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
